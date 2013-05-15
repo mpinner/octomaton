@@ -45,7 +45,7 @@
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(STRIP_LENGTH, STRIP_DATA_PIN, NEO_GRB + NEO_KHZ800);
 
 // a value from 0x0F to 0xFF 
-#define BRIGHTNESS 0x0F
+#define BRIGHTNESS 0xFF
 #define DELAY_MS 130
 #define STEPS_PER_RULE 100
 
