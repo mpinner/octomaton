@@ -39,8 +39,8 @@
 //   NEO_GRB     Pixels are wired for GRB bitstream
 //   NEO_KHZ400  400 KHz bitstream (e.g. FLORA pixels)
 //   NEO_KHZ800  800 KHz bitstream (e.g. High Density LED strip)
-#define STRIP_LENGTH 60 
-#define STRIP_DATA_PIN 6
+#define STRIP_LENGTH 74 
+#define STRIP_DATA_PIN 23
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(STRIP_LENGTH, STRIP_DATA_PIN, NEO_GRB + NEO_KHZ800);
 
